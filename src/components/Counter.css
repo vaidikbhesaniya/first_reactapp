@@ -1,0 +1,26 @@
+#c1 {
+  background-color: rgb(43, 63, 63);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+}
+#btn-add {
+  background-color: brown;
+  margin: 10px;
+  border: transparent;
+  border-radius: 20px;
+  color: white;
+  width: 200px;
+  cursor: pointer;
+}
+#btn-add1 {
+  background-color: brown;
+  margin: 10px;
+  border: transparent;
+  border-radius: 20px;
+  color: white;
+  width: 200px;
+  cursor: pointer;
+}

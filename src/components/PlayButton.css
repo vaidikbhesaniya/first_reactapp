@@ -1,0 +1,13 @@
+#btn {
+  color: beige;
+  width: 100px;
+  height: 40px;
+  border: transparent;
+  background-color: #0f0f0f;
+  border-radius: 20px;
+  transition: all 0.5s ease-in-out;
+}
+#btn:hover {
+  background-color: rgb(255, 22, 22);
+  cursor: pointer;
+}

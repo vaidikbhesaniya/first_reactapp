@@ -1,0 +1,78 @@
+#cnl {
+  font-size: 18px;
+  color: #aaaaaa;
+}
+#tit {
+  color: white;
+}
+.cont {
+  margin: 10px;
+  scale: 1;
+  width: 300px;
+  height: 450px;
+  overflow: hidden;
+}
+#im {
+  width: 100%;
+}
+.detail {
+  color: #aaaaaa;
+  font-size: 15px;
+}
+.x {
+  color: aliceblue;
+  position: absolute;
+  background-color: transparent;
+  left: 80%;
+  top: 0%;
+  /* visibility: hidden; */
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+  filter: blur(10px);
+  z-index: 99;
+}
+.x:hover {
+  background-color: red;
+  filter: blur(0px);
+  cursor: pointer;
+}
+
+.xl {
+  color: aliceblue;
+  position: absolute;
+  background-color: transparent;
+  left: 80%;
+  top: 10%;
+  /* visibility: hidden; */
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+  filter: blur(10px);
+}
+
+.xl:hover {
+  background-color: red;
+  color: white;
+  filter: blur(0px);
+  cursor: pointer;
+}
+.xl::after {
+  content: "";
+  width: 1700%;
+  position: absolute;
+  height: 1000%;
+  background-color: transparent;
+  display: flex;
+}
+.xl::after:hover .xl {
+  color: aqua;
+}
